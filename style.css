@@ -1,0 +1,123 @@
+html {
+    background:linear-gradient(135deg, blue, black)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* To import fonts to use */
+
+body {
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.nav-links {
+    list-style-type: none;
+    text-decoration: solid;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Dropdown menu1 */
+.dropdown1 {
+    position: relative;
+    background-color: black;
+}
+
+.dropdown-items1 {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    background-color: black;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    width: 150px;
+    z-index: 1;
+}
+
+.dropdown1:hover .dropdown-items1{
+    display: block;
+}
+
+/* Dropdown menu 2 */
+.dropdown2 {
+    position: relative;
+    background-color: black;
+}
+
+.dropdown-items2 {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    background-color: black;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    width: 150px;
+    z-index: 1;
+}
+
+.dropdown2:hover .dropdown-items2{
+    display: block;
+}
+
+/* Mediascreen queries for Navbar */
+
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 30px;
+}
+
+.hero-image {
+    text-align: center;
+}
+
+.hero-text {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 640px;
+    height: 360px;
+    margin-bottom: 5rem;
+}
+
+.btn {
+    color: black;
+}
+
+.footer {
+    background-color: black;
+    color: blue;
+    text-align: center;
+    padding: 20px 0;
+}
